@@ -23,6 +23,11 @@ app.get('/test', (req: Request, res: Response) => {
   res.json(users);
 });
 
+app.get('/test-api', (req: Request, res: Response) => {
+  const users = ['CI/CD Implementation done by using git-hub actions'];
+  res.json(users);
+});
+
 // Start the server
 app.listen(8000, () => {
   console.log('Server is running on port 8000');
