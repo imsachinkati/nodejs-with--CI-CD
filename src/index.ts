@@ -14,9 +14,8 @@ app.get('/users', (req: Request, res: Response) => {
 });
 
 app.get('/home', (req: Request, res: Response) => {
-  res.json({
-    msg:"Hi I am from  CI/CD pipeline"
-  })
+  const users = ['hello ci cd pipeline'];
+  res.json(users);
 });
 
 // Start the server
