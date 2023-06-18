@@ -18,6 +18,11 @@ app.get('/home', (req: Request, res: Response) => {
   res.json(users);
 });
 
+app.get('/test', (req: Request, res: Response) => {
+  const users = ['final testing of ci cd pipeline'];
+  res.json(users);
+});
+
 // Start the server
 app.listen(8000, () => {
   console.log('Server is running on port 8000');
