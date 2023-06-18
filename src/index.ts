@@ -15,7 +15,7 @@ app.get('/users', (req: Request, res: Response) => {
 
 app.get('/home', (req: Request, res: Response) => {
   res.json({
-    msg:"Hi I am from CI/CD pipeline"
+    msg:"Hi I am from  CI/CD pipeline"
   })
 });
 
