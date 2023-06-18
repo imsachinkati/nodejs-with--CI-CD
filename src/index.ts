@@ -13,6 +13,12 @@ app.get('/users', (req: Request, res: Response) => {
   res.json(users);
 });
 
+app.get('/home', (req: Request, res: Response) => {
+  res.json({
+    msg:"Hi I am from CI/CD pipeline"
+  })
+});
+
 // Start the server
 app.listen(8000, () => {
   console.log('Server is running on port 8000');
