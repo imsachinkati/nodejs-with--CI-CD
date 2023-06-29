@@ -1,7 +1,7 @@
 # nodejs-with--CI-CD
 
 We will Use github action to set up CI CD pipeline to Deploy your project  to AWS EC2
-Full guide to automatic deployment to AWS EC2 using GitHub Action with nodejs api as example in hindi
+
 
 
 
